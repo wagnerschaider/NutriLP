@@ -1,0 +1,35 @@
+.elementor-11 .elementor-element.elementor-element-a111e21 > .elementor-container{max-width:670px;min-height:800px;}.elementor-11 .elementor-element.elementor-element-a111e21:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-a111e21 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("./../../2022/12/various-vegetables-on-a-black-table-with-space-for-a-message-1-scaled.jpg");background-position:top center;background-size:cover;}.elementor-11 .elementor-element.elementor-element-a111e21 > .elementor-background-overlay{background-color:transparent;background-image:linear-gradient(180deg, #00000000 0%, #000000 100%);opacity:0.79;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-11 .elementor-element.elementor-element-a111e21{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 25px 0px;}.elementor-11 .elementor-element.elementor-element-05b4678{text-align:center;}.elementor-11 .elementor-element.elementor-element-05b4678 .elementor-heading-title{color:#FFFFFF;font-family:"Roboto", Sans-serif;font-size:22px;font-weight:300;text-transform:uppercase;line-height:32px;}.elementor-11 .elementor-element.elementor-element-05b4678 > .elementor-widget-container{margin:15px 0px 15px 0px;}.elementor-11 .elementor-element.elementor-element-1859b1a{width:100%;max-width:100%;}:root{--page-title-display:none;}/* Start custom CSS for html, class: .elementor-element-1859b1a */.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 1px;
+  padding: 1px 10px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 1px;
+  height: 5px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}/* End custom CSS */
